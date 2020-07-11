@@ -5,6 +5,4 @@ header:
   image: "/images/zakim.jpg"
 ---
 
-I'm a senior data scientist who excels at data wrangling, machine learning, exploratory analysis, and data visualizations.
-
-Etc, etc, etc
+Experience in executing full life-cycle development projects; ramping up projects within time, budget & quality parameters, as per project management & best practice guidelines, targeting assignments in Data Science, Machine Learning and Deep Learning within the organisation.
