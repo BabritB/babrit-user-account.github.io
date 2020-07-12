@@ -3,7 +3,7 @@ title: "Basic ML Model Deployment"
 date: 2020-07-12
 tags: [model deployment]
 header:
-  image: "/images/perceptron/percept.jpg"
+  image: "/images/model-deployment.png"
 excerpt: "Data Wrangling, Data Science, Messy Data"
 mathjax: "true"
 ---
