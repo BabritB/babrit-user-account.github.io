@@ -1,4 +1,14 @@
-# Scrap IMDB Ranking Data:
+---
+title: "Basic Data Scrapping"
+date: 2020-07-12
+tags: [data scrapping, data science, messy data]
+header:
+  image: "/images/perceptron/percept.jpg"
+excerpt: "Data Wrangling, Data Science, Messy Data"
+mathjax: "true"
+---
+
+# Scrape IMDB Ranking Data:
 
 
 ```python
