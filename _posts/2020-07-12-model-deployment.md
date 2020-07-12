@@ -1,3 +1,12 @@
+---
+title: "Basic ML Model Deployment"
+date: 2020-07-12
+tags: [model deployment]
+header:
+  image: "/images/perceptron/percept.jpg"
+excerpt: "Data Wrangling, Data Science, Messy Data"
+mathjax: "true"
+---
 # Deployment on Heroku
 
 #### Heroku is one of the first cloud platform as a service (PaaS) and supports several languages - Ruby, Java, Node.js, Scala, Clojure, Python, PHP, and Go.
