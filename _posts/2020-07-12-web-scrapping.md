@@ -10,6 +10,9 @@ mathjax: "true"
 
 # Scrape IMDB Ranking Data:
 
+Extracting the data from a webpage as per the business needs is web-scrapping.A basic intution would be picking up few balls from a bucket which we need for our purpose.
+As we know that a webpage is nothing but a bunch of html tags wrapped around the useful information that could be rendered through a web browser. In web-scrapping we are concerned about the data inside the tags and the whole process would be ignoring the html tags and extracting the information.
+BeautifulSoup is the most popular library in python for web-scrapping but with some limitations which we talk later as we proceed.
 
 ```python
 # import libraries
@@ -24,9 +27,11 @@ pageurl="https://www.imdb.com/search/title/?count=100&groups=top_1000&sort=user_
 
 ### Iterate over all the pages and capture the data until reached the last page.
 
-
+Get the parent div section {use inspect element to know the attributes} on the browser through the developer tools.
+In this example we have total 10 webpages each page of 100 records but url of the first page is only provided.
+We will implement  --> If the page is having the next page link then loop over to next page else we are on the last webpage.
 ```python
-# Get the parent div section {use inspect element to know the attributes}
+
 rows=[]
 rows.append(['Movie_Name','Year','Rating','Description','Director','Stars','Certificate','Runtime','Genre','Votes','Gross'])
 while True:
@@ -87,6 +92,7 @@ while True:
     else:pageurl='https://www.imdb.com'+atricle_nav.get('href').strip()
 ```
 
+Finally once we extract the data and stored into our list then we will write into a csv file for further use and analysis.
 
 ```python
 ## Create csv and write rows to output file
@@ -94,3 +100,5 @@ with open('imdb-data.csv','w', newline='') as f_output:
     csv_output = csv.writer(f_output)
     csv_output.writerows(rows)
 ```
+Remember we talk about limitation of BeautifulSoup ? Yes, there is a limitation. Suppose you have a webpage where the contents are not static and the data is loaded dynamically through a js function. In this case your script cannot parse the dynamic content as it doesnot have js engine.
+Therefore in these type of cases we must use 'Selenium' library to overcome this problem. As Selenium will be able to create a browser object and load the dynamic content and then we can parse it to start our extraction process.
