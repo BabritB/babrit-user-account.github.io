@@ -4,7 +4,7 @@ date: 2020-07-12
 tags: [model deployment]
 header:
   image: "/images/model-deployment.png"
-excerpt: "Deployment, Heroku"
+excerpt: "Data Wrangling, Data Science, Messy Data"
 mathjax: "true"
 ---
 # Deployment on Heroku
@@ -18,13 +18,17 @@ $ pip freeze > requirements.txt
 
 
 ```python
-Click==7.0
 Flask==1.1.1
 gunicorn==19.9.0
 itsdangerous==1.1.0
 Jinja2==2.10.1
 MarkupSafe==1.1.1
-Werkzeug==0.15.6
+Werkzeug==0.15.5
+numpy>=1.9.2
+scipy>=0.15.1
+scikit-learn>=0.18
+matplotlib>=1.4.3
+pandas>=0.19
 ```
 
 #### Pay attention to the misspelling 'requirements'
