@@ -1,5 +1,5 @@
 ---
-title: "Basic Data Scrapping"
+title: "Understanding Data Scrapping"
 date: 2020-07-12
 tags: []
 header:

@@ -1,5 +1,5 @@
 ---
-title: "Basic Price Prediction Model"
+title: "Simple Price Prediction Model"
 date: 2020-07-13
 tags: []
 header:

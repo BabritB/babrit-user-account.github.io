@@ -1,5 +1,5 @@
 ---
-title: "Basic ML Model Deployment"
+title: "Easy ML Model Deployment"
 date: 2020-07-12
 tags: [model deployment]
 header:
