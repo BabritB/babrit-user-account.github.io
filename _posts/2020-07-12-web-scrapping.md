@@ -1,7 +1,7 @@
 ---
 title: "Basic Data Scrapping"
 date: 2020-07-12
-tags: [data scrapping, data science, messy data]
+tags: []
 header:
   image: "/images/web-scrapping.jpg"
 excerpt: "Data Wrangling, Data Science, Messy Data"
