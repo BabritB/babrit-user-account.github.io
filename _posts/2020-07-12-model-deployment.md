@@ -4,7 +4,7 @@ date: 2020-07-12
 tags: [model deployment]
 header:
   image: "/images/model-deployment.png"
-excerpt: "Data Wrangling, Data Science, Messy Data"
+excerpt: "Deployment, Heroku"
 mathjax: "true"
 ---
 # Deployment on Heroku

@@ -4,7 +4,7 @@ date: 2020-07-13
 tags: []
 header:
   image: "/images/flight-price.jpg"
-excerpt: "Data Wrangling, Data Science, Messy Data"
+excerpt: "Price Prediction, RandomForest"
 mathjax: "true"
 ---
 ## Prediction of Flight Price:

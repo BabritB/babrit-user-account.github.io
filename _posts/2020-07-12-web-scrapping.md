@@ -4,7 +4,7 @@ date: 2020-07-12
 tags: []
 header:
   image: "/images/web-scrapping.jpg"
-excerpt: "Data Wrangling, Data Science, Messy Data"
+excerpt: "Data Scrapping, BeautifulSoup, Selenium"
 mathjax: "true"
 ---
 
