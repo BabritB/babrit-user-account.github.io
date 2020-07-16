@@ -14,7 +14,7 @@ Usually while working into some projects we get stuck once in while in situation
 ### Container: [Docker]
 A container is a type of software that packages and bundles up an application and all its dependencies so the application runs reliably from one computing environment to another.
 Docker is a type of software which allows users to build, run and manage containers.
-### Now what is Kubernets?
+### Now what is Kubernetes?
 Kubernetes is a system for running and coordinating containerized applications across a cluster of machines. It is a platform designed to completely manage the life cycle of containerized applications.
 Few points need to know why to use Kubernets:
     * Load Balancing
@@ -25,7 +25,7 @@ Few points need to know why to use Kubernets:
 Overall we can say that it improves the scalability of an application to the next level and which will be automated too.Docker is a software that allows you to containerize applications while Kubernetes is a container management system that allows to create, scale and monitor hundreds and thousands of containers.
 I have a simple web application in my github [GitHub_Repo](https://github.com/BabritB/deployment-gcp-kubernets)
 
-### Steps to deploy on Google Kubernets Engine:
+### Steps to deploy on Google Kubernetes Engine:
 ### Step 1: Create a new project in GCP Console
 Sign-in  GCP console --> Manage Resources  --> Create New Project
 
