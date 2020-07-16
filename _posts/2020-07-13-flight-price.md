@@ -638,6 +638,4 @@ metrics.r2_score(y_test, y_prediction)
 
 This is a very basic implementation of a regression model. We can also improve our accuracy in many ways like by investigating more into the EDA part and try with different regression algorithms and fine tune them.
 
-```python
 
-```

@@ -28,9 +28,10 @@ I have a simple web application in my github [GitHub_Repo](https://github.com/Ba
 ### Steps to deploy on Google Kubernets Engine:
 ### Step 1: Create a new project in GCP Console
 Sign-in  GCP console --> Manage Resources  --> Create New Project
-![gcp-1.png](attachment:gcp-1.png)
 
-![gcp-2.png](attachment:gcp-2.png)
+![png]({{ site.url }}{{ site.baseurl }}/images/gcp-1.png)
+
+![png]({{ site.url }}{{ site.baseurl }}/images/gcp-2.png)
 
 ### Step 2 : Activate Cloud Shell:
 Execute the following code in the cloud shell to import the app.
@@ -39,8 +40,7 @@ Execute the following code in the cloud shell to import the app.
 git clone https://github.com/BabritB/deployment-gcp-kubernets
 ```
 
-![gcp-4.png](attachment:gcp-4.png)
-
+![png]({{ site.url }}{{ site.baseurl }}/images/gcp-4.png)
 ### Step 3: Set Project ID Environment Variable:
 
 
@@ -48,8 +48,7 @@ git clone https://github.com/BabritB/deployment-gcp-kubernets
 export PROJECT_ID=kubernetes-demo-app
 ```
 Remember to change the directory and point to the app folder where Dockerfile is present
-![gcp-5.png](attachment:gcp-5.png)
-
+![png]({{ site.url }}{{ site.baseurl }}/images/gcp-5.png)
 ### Step 4: Build the docker image.
 
 
@@ -62,8 +61,7 @@ Check the created images:
 docker images
 ```
 
-![gcp-6.png](images/attachment:gcp-6.png)
-
+![png]({{ site.url }}{{ site.baseurl }}/images/gcp-6.png)
 ### Step 5: Upload the container image.
 
 
@@ -117,6 +115,4 @@ kubectl get service
 ### Note: In case you stuck anywhere simply take help from the documentation.
 
 
-```python
 
-```
