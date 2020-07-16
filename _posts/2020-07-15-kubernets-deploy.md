@@ -19,7 +19,7 @@ Kubernetes is a system for running and coordinating containerized applications a
 Few points need to know why to use Kubernets:
     * Load Balancing
     * Scaling
-    * Storage
+    * Storages
     * Self-Healing
     * Automated Rollouts
 Overall we can say that it improves the scalability of an application to the next level and which will be automated too.Docker is a software that allows you to containerize applications while Kubernetes is a container management system that allows to create, scale and monitor hundreds and thousands of containers.
