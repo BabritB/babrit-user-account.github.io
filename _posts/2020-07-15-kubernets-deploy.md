@@ -3,7 +3,7 @@ title: "Deploy application in GCP using Kubernetes"
 date: 2020-07-13
 tags: []
 header:
-  image: "/images/flight-price.jpg"
+  image: "/images/deploy-img.jpg"
 excerpt: "Deployment"
 mathjax: "true"
 ---
